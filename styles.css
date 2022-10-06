@@ -12,7 +12,7 @@ html{
 body{
     margin:0;
     font-family: sans-serif;
-    background: #ececec;
+    background: #d10375;
     text-align: center;
     padding: 2em;
     color:#fff;
@@ -21,7 +21,7 @@ body{
 .title{
     font-size: 3em;
     margin-bottom: 2em;
-    color:#222;
+    color:#fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS' ;
     letter-spacing: .1em;
     text-shadow: 1px 1px 0 rgb(230, 74, 74);
@@ -51,7 +51,7 @@ body{
     position: relative;
 }
 .sub-title{
-    color:#222;
+    color:#fff;
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -100,11 +100,13 @@ body{
     padding-left: 1em;
 }
 
-
+/* Remove input number button  */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
 .panel input::-webkit-outer-spin-button,
-.panel input::-webkit-inner-spin-button{
+.panel input::-webkit-inner-spin-button {
     -webkit-appearance: none;
-    margin:0;
 }
 
 
